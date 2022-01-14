@@ -1,0 +1,22 @@
+{
+    "name": "edgarsingui/proxypay",
+    "description": "Um simples pacote para facilitar a integração com a proxypay",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Edgar Singui",
+            "email": "edgarsingui@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Singui\\": "src/"
+        }
+    }
+}
