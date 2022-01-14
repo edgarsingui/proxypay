@@ -1,6 +1,14 @@
 # PROXYPAY SDK
 UM SIMPLES PACOTE EM PHP PARA GERAR PAGAMENTOS UTILIZANDO A PROXYPAY
 
+# INSTALAÇÃO
+
+Se deseja instalar este pacote execute o comando abaixo: 
+
+```
+composer require edgarsingui/proxypay
+```
+
 # INTRODUÇÃO
 ESTE SDK/PACOTE É COMPOSTO POR 4 SIMPLES MÉTPDOS  SENDO ELAS :
 
