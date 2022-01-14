@@ -27,6 +27,9 @@ Devemos instanciar a classe 'ProxyPay' e passar 2 argumentos sendo eles:
 Ok vamos começar.
 
 ``` 
+require __DIR__.'/vendor/autoload.php';
+use Singui\Proxypay;
+
 $proxypay = new ProxyPay('SUA_CHAVE_DE_API');
 ```
 Note que não estamos passando o segundo argumento, pois o segundo é opcional, e quando não inserido assume-se que usaremos o EndPoint de prd.
