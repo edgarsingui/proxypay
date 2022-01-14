@@ -54,7 +54,9 @@ class ProxyPay {
 			$reference = [
 			    "amount"        => $amount,
 			    "end_datetime"  => $expdate,
-			    "callback_url"  => $callback,
+	            "custom_fields" => [
+	                "callback_url"=>$callback
+	            ]
 			];
 		else:
 			$reference = [
